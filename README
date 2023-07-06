@@ -1,0 +1,14 @@
+SMART PLUG
+
+Overview:
+
+    - Smart Plug project will use a Raspberry Pi as a controller for a IoT network.
+    - The IoT network is made up of smart devices that can be controlled automatically (scheduled) or manually (through JS app)
+
+
+
+Running code:
+
+network_devices.py
+    python3 Connection/network_devices.py -t IP_Address/IP_Addresses
+    python3 Connection/network_devices.py -t 192.168.0.248/192.168.0.1-192.168.0.255
